@@ -1,0 +1,10 @@
+{
+  "network": "sepolia",
+  "address": "0xBB496Cd39B1609405D0d195C56A196501620Ff9c",
+  "txHash": "0x9253c95f62fc4326567cde6496752fe5fb1d46780080154612ca51418fd141a3",
+  "deployer": "0xaB68621ff885793A53E81e13bA368bc592B80795",
+  "beneficiary": "0x78f912a830b06023b9b2371821680be2264985eb",
+  "triggerWindow": "15552000",
+  "triggerDays": 180,
+  "deployedAt": "2026-03-12T11:41:00.234Z"
+}
