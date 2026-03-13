@@ -1,6 +1,6 @@
 # MORTIS — Encrypted Digital Inheritance Protocol
 
-> *"The first trustless, FHE-encrypted dead man's switch on Ethereum."*
+> _"The first trustless, FHE-encrypted dead man's switch on Ethereum."_
 
 ![Status](https://img.shields.io/badge/status-live-brightgreen)
 ![Network](https://img.shields.io/badge/network-Sepolia-blue)
@@ -52,15 +52,15 @@ Standard Ethereum smart contracts store all state publicly. Anyone can see your 
 
 ### fhEVM Primitives Used
 
-| Primitive | Usage in MORTIS |
-|---|---|
-| `euint64` | Encrypted vault balance — invisible to everyone on-chain |
-| `FHE.asEuint64()` | Convert plaintext deposit amount to ciphertext |
-| `FHE.add()` | Add deposits to encrypted balance without decrypting |
-| `FHE.allowThis()` | Grant contract permission to operate on ciphertext |
-| `FHE.allow()` | Grant owner/beneficiary decryption access |
-| `FHE.requestDecryption()` | Async KMS decryption request on trigger |
-| `FHE.checkSignatures()` | Verify MPC decryption proof in callback |
+| Primitive                 | Usage in MORTIS                                          |
+| ------------------------- | -------------------------------------------------------- |
+| `euint64`                 | Encrypted vault balance — invisible to everyone on-chain |
+| `FHE.asEuint64()`         | Convert plaintext deposit amount to ciphertext           |
+| `FHE.add()`               | Add deposits to encrypted balance without decrypting     |
+| `FHE.allowThis()`         | Grant contract permission to operate on ciphertext       |
+| `FHE.allow()`             | Grant owner/beneficiary decryption access                |
+| `FHE.requestDecryption()` | Async KMS decryption request on trigger                  |
+| `FHE.checkSignatures()`   | Verify MPC decryption proof in callback                  |
 
 ### Access Control Switch (The Core Innovation)
 
@@ -213,9 +213,10 @@ Target users: any crypto holder who wants to ensure their assets pass to family 
 
 ## Why FHE Makes This Possible
 
-Without FHE, a dead man's switch contract would have to store the vault balance publicly — anyone could see exactly how much ETH is waiting to be inherited, making it a target. 
+Without FHE, a dead man's switch contract would have to store the vault balance publicly — anyone could see exactly how much ETH is waiting to be inherited, making it a target.
 
 With fhEVM:
+
 - The balance is encrypted on-chain
 - Only the owner (while alive) can see their balance
 - The beneficiary gains access only when inheritance is triggered
@@ -238,10 +239,9 @@ This is a use case that **only becomes possible with FHE** — not achievable wi
 ## Submission
 
 **Track:** Builder Track — Zama Developer Program Mainnet Season 1  
-**Submitted by:** [Your Name]  
-**Contact:** [Your Email]  
-**GitHub:** [Your GitHub]
+**Contact:** Davidclement331@gmail.com  
+**GitHub:** github.com/Davethewrld
 
 ---
 
-*MORTIS — Because your crypto shouldn't die with you.*
+_MORTIS — Because your crypto shouldn't die with you._
